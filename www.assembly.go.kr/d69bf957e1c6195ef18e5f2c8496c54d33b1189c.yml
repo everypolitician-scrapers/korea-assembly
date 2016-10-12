@@ -1,0 +1,35 @@
+---
+request:
+  method: get
+  uri: http://www.assembly.go.kr/assm/memPop/memPopup.do?dept_cd=9770723
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Wed, 12 Oct 2016 22:20:45 GMT
+    Pharosagent:
+    - expacific_portal2014
+    Content-Type:
+    - text/html;charset=utf-8
+    Set-Cookie:
+    - JSESSIONID=FSLUyauBwlIRlOHQArxtC4moPr58UOmvKNRdYfvn4HEETdS7QG1Asa8U5qJxlSZX.expacific_servlet_portal2014;Path=/
+    - PHAROS_VISITOR=000000000157bafbc4d345040ac965a6;Expires=Thu, 12-Oct-2017 22:20:45
+      GMT
+    Content-Length:
+    - '9861'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Wed, 12 Oct 2016 22:20:45 GMT
