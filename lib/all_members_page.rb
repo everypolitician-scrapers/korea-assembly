@@ -15,7 +15,7 @@ class AllMembersPage < Page
   private
 
   def member_url(id)
-    # defined in `function memInfo`
-    absolute_url("/mem/mem_pro.jsp?mem_code=#{id}")
+    # Be careful not to unescape
+    "http://korea.assembly.go.kr/mem/mem_pro.jsp?mem_code=#{id}"
   end
 end
