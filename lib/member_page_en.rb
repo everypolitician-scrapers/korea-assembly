@@ -24,7 +24,7 @@ class MemberPage
       sibling_td('WEBSITE')
     end
 
-    field :group do
+    field :party do
       sibling_td('NEGOTIATION GROUP')
     end
 
