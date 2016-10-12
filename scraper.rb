@@ -8,8 +8,8 @@ require 'scraperwiki'
 
 require_rel 'lib'
 
-require 'open-uri/cached'
-# require 'scraped_page_archive/open-uri'
+# require 'open-uri/cached'
+require 'scraped_page_archive/open-uri'
 
 LIST_PAGE = 'http://korea.assembly.go.kr/mem/mem_01.jsp'
 
@@ -21,6 +21,5 @@ data[:members].each do |mem|
   data_ko = MemberPage::Korean.new(data_en[:source_ko]).to_h
 
   data = data_en.merge(data_ko)
-  warn data
   ScraperWiki.save_sqlite(%i(id), data)
 end
