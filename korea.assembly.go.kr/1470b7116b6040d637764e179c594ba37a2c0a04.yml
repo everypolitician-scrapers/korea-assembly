@@ -1,0 +1,35 @@
+---
+request:
+  method: get
+  uri: http://korea.assembly.go.kr/mem/mem_pro.jsp?mem_code=h7R/kwIb/yA=
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Wed, 12 Oct 2016 21:50:52 GMT
+    Pharosagent:
+    - expacific_english
+    Content-Type:
+    - text/html;charset=EUC-KR
+    Set-Cookie:
+    - JSESSIONID=hC4IfGiVmw6X5vfko9Dad76sEP1rzA3JKaAVNZvnRnhziNrFQnlgzdzyW4inx2VV.expacific_servlet_english;Path=/
+    - PHAROS_VISITOR=000000000157bae06da750020ac965a6;Expires=Thu, 12-Oct-2017 21:50:52
+      GMT
+    Content-Length:
+    - '2148'
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Wed, 12 Oct 2016 21:50:53 GMT
