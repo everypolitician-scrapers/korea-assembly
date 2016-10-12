@@ -12,7 +12,7 @@ class MemberPage < Page
   end
 
   field :birth_date do
-    sibling_td('BIRTHDAY')
+    sibling_td('BIRTHDAY').gsub('/','-')
   end
 
   field :phone do
