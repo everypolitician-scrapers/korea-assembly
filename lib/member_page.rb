@@ -3,6 +3,10 @@
 require_relative 'page'
 
 class MemberPage < Page
+  field :id do
+    Pathname.new(image).basename('.*')
+  end
+
   field :name do
     sibling_td('NAME')
   end
