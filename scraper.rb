@@ -17,7 +17,10 @@ data = AllMembersPage.new(LIST_PAGE).to_h
 warn "Found #{data[:members].count} members"
 
 data[:members].each do |mem|
-  data = MemberPage::English.new(mem[:url]).to_h
+  data_en = MemberPage::English.new(mem[:url]).to_h
+  data_ko = MemberPage::Korean.new(data_en[:source_ko]).to_h
+
+  data = data_en.merge(data_ko)
   warn data
-  # ScraperWiki.save_sqlite(%i(id), data)
+  ScraperWiki.save_sqlite(%i(id), data)
 end
