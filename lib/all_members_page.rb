@@ -7,7 +7,7 @@ class AllMembersPage < Page
       id = li.css('a/@onclick').text[/memInfo\('(.*)'\)/, 1]
       {
         name: li.text,
-        url:  member_url(id)
+        url:  member_url(id),
       }
     end
   end
