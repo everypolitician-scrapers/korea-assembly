@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_rel 'page'
+require_relative 'page'
 
 class MemberPage < Page
   field :name do

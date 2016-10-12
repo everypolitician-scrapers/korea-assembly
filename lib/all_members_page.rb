@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-require_rel 'page'
+require_relative 'page'
 
 class AllMembersPage < Page
   field :members do
