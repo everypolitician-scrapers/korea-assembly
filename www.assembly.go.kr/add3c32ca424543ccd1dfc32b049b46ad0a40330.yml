@@ -20,20 +20,20 @@ response:
     Server:
     - Wow 3.8
     Date:
-    - Mon, 20 Mar 2017 11:01:24 GMT
+    - Tue, 21 Mar 2017 23:46:22 GMT
     Content-Type:
     - text/html;charset=utf-8
+    Transfer-Encoding:
+    - chunked
     Connection:
     - close
     Pharosagent:
-    - exeurope_portal2014
+    - expacific_portal2014
     Set-Cookie:
-    - JSESSIONID=OBstqvZM6OXBOdaLBQqCTtJtgc6WSIMteNQb9aX0Hay1KXvNgiBSw1yho9wgf0Om.exeurope_servlet_portal2014;Path=/
-    - PHAROS_VISITOR=00000000015aeb603e7c74960ac965a5;Expires=Tue, 20-Mar-2018 11:00:38
+    - JSESSIONID=VCCjMYFxr9IaZfJ6mfwiWM8mEaB5AUayXMSoAMA1tfrEcqxmgL2k1ImkZ7yymubq.expacific_servlet_portal2014;Path=/
+    - PHAROS_VISITOR=00000000015af342f082318a0ac965a6;Expires=Wed, 21-Mar-2018 23:45:35
       GMT
-    Content-Length:
-    - '9357'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 20 Mar 2017 11:00:38 GMT
+recorded_at: Tue, 21 Mar 2017 23:45:35 GMT
