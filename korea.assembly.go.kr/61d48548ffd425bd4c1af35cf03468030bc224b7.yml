@@ -17,23 +17,19 @@ response:
     code: 200
     message: OK
   headers:
-    Server:
-    - Wow 3.8
     Date:
-    - Thu, 20 Apr 2017 11:56:51 GMT
+    - Fri, 21 Apr 2017 21:52:35 GMT
+    Pharosagent:
+    - exeurope_english
     Content-Type:
     - text/html;charset=EUC-KR
+    Set-Cookie:
+    - JSESSIONID=bzXhkh6bOTQxHkPkaCSWCAphNeYZmN0mflC5ZutHkWmg6BPbg6a2blFIUHMoMTEm.exeurope_servlet_english;Path=/
+    - PHAROS_VISITOR=00000000015b9280a26079640ac965a5;Expires=Sat, 21-Apr-2018 21:52:35
+      GMT
     Transfer-Encoding:
     - chunked
-    Connection:
-    - close
-    Pharosagent:
-    - expacific_english
-    Set-Cookie:
-    - JSESSIONID=G1fBW1sy1w9bTwfapep0yr5wxac11IsBk3qnSXvYTwhaauMngGHyqUIG3pfxKMUw.expacific_servlet_english;Path=/
-    - PHAROS_VISITOR=00000000015b8b37ecaa77a60ac965a6;Expires=Fri, 20-Apr-2018 11:55:49
-      GMT
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 20 Apr 2017 11:55:49 GMT
+recorded_at: Fri, 21 Apr 2017 21:52:35 GMT
