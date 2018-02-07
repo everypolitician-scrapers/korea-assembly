@@ -18,18 +18,15 @@ response:
     message: OK
   headers:
     Date:
-    - Tue, 06 Feb 2018 05:19:03 GMT
-    Pharosagent:
-    - expacific_english
+    - Wed, 07 Feb 2018 14:27:12 GMT
+    Set-Cookie:
+    - JSESSIONID=1dksW0BVLloaKImmZEbxhL5QqrSNB1wim3FqXQ93RfuaA4gMMCtA0OQMCKaHITJx.exeurope_servlet_english;Path=/
+    - PHAROSVISITOR=00006514016170a9cfad02050ac965a5; HttpOnly
     Content-Type:
     - text/html;charset=EUC-KR
-    Set-Cookie:
-    - JSESSIONID=3kwQ7Pl19rcUmkOgfdsjXyKm5atlpORr5D1x2WgjOklVocRdMytvg1L5nkoG1nre.expacific_servlet_english;Path=/
-    - PHAROS_VISITOR=000000000161698d9a5324a40ac965a6;Expires=Wed, 06-Feb-2019 05:19:03
-      GMT
     Content-Length:
     - '2163'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 06 Feb 2018 05:19:03 GMT
+recorded_at: Wed, 07 Feb 2018 14:27:12 GMT
