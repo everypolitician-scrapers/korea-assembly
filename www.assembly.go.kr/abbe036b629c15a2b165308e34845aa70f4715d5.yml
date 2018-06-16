@@ -1,0 +1,32 @@
+---
+request:
+  method: get
+  uri: http://www.assembly.go.kr/assm/memPop/memPopup.do?dept_cd=9771095
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Sat, 16 Jun 2018 06:03:58 GMT
+    Set-Cookie:
+    - JSESSIONID=Hi6t9AKd8SaBHgqhluIYbO1dTKGMOAZPxRNPV26g49Zr32110NDavu1WvaUWChlb.expacific_servlet_portal2014;Path=/
+    - PHAROSVISITOR=00003f1901640731726711440ac965a6; HttpOnly
+    Content-Type:
+    - text/html;charset=utf-8
+    Content-Length:
+    - '7660'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Sat, 16 Jun 2018 06:03:59 GMT
