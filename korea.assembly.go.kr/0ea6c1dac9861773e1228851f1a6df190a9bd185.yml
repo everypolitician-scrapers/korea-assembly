@@ -1,0 +1,32 @@
+---
+request:
+  method: get
+  uri: http://korea.assembly.go.kr/mem/mem_pro.jsp?mem_code=A5YR4OTfgwk=
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Sat, 16 Jun 2018 05:24:28 GMT
+    Set-Cookie:
+    - JSESSIONID=Zc1XU5aaZrlOSqIjV1k6UiozhJEBnm06xahqgfRxv92QgXE102c0t8fihqkif1RO.expacific_servlet_english;Path=/
+    - PHAROSVISITOR=00001b580164070d476238d80ac965a6; HttpOnly
+    Content-Type:
+    - text/html;charset=EUC-KR
+    Content-Length:
+    - '2047'
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Sat, 16 Jun 2018 05:24:28 GMT
