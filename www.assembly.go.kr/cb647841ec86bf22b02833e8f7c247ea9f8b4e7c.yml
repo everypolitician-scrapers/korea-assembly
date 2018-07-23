@@ -18,10 +18,10 @@ response:
     message: OK
   headers:
     Date:
-    - Sun, 22 Jul 2018 16:44:22 GMT
+    - Mon, 23 Jul 2018 16:42:10 GMT
     Set-Cookie:
-    - JSESSIONID=zf8lclJA2PnpwPvudeRPKnx1ZNrr91iyqAos3JraI5pwF3Uj03DEBdOBEQD4TYKY.exeurope_servlet_portal2014;Path=/
-    - PHAROSVISITOR=00002f630164c2e0ad2f74b30ac965a5; HttpOnly
+    - JSESSIONID=7laFayq6jtbh7vlIGzSNJbIDKUaECcULOnWCeYQ3OXd2abJs0o81dYsPvaepIGM2.exeurope_servlet_portal2014;Path=/
+    - PHAROSVISITOR=00002f630164c805073d76770ac965a5; HttpOnly
     Content-Type:
     - text/html;charset=utf-8
     Content-Length:
@@ -29,4 +29,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 22 Jul 2018 16:44:22 GMT
+recorded_at: Mon, 23 Jul 2018 16:42:10 GMT
