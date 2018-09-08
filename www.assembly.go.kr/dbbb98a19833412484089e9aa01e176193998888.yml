@@ -18,10 +18,10 @@ response:
     message: OK
   headers:
     Date:
-    - Fri, 07 Sep 2018 04:30:00 GMT
+    - Sat, 08 Sep 2018 10:33:07 GMT
     Set-Cookie:
-    - JSESSIONID=3mxN6NBU4zRzhC3xKo15bcUNPJloK7vOX8oQap1csj6xffHC0IAb1eR1eckSUK1J.expacific_servlet_portal2014;Path=/
-    - PHAROSVISITOR=0000632f0165b24b3b6d54220ac965a6; HttpOnly
+    - JSESSIONID=7EWgjraEivM4T0uKnVhgoqnJYYDkUonbSXU1ZL7VN2sm1gf30KwYHMcHghoUzTtj.expacific_servlet_portal2014;Path=/
+    - PHAROSVISITOR=0000632f0165b8be08b67be40ac965a6; HttpOnly
     Content-Type:
     - text/html;charset=utf-8
     Content-Length:
@@ -29,4 +29,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 07 Sep 2018 04:30:00 GMT
+recorded_at: Sat, 08 Sep 2018 10:33:07 GMT
