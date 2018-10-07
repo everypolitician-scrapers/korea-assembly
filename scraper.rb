@@ -8,8 +8,8 @@ require 'scraperwiki'
 
 require_rel 'lib'
 
-# require 'open-uri/cached'
-require 'scraped_page_archive/open-uri'
+require 'open-uri/cached'
+OpenURI::Cache.cache_path = '.cache'
 
 LIST_PAGE = 'http://korea.assembly.go.kr/mem/mem_01.jsp'
 
