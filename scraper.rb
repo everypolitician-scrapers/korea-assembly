@@ -21,5 +21,6 @@ data[:members].each do |mem|
   data_ko = MemberPage::Korean.new(data_en[:source_ko]).to_h
 
   data = data_en.merge(data_ko)
+  puts data.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h if ENV['MORPH_DEBUG']
   ScraperWiki.save_sqlite(%i(id), data)
 end
